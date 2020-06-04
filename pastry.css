@@ -1,0 +1,208 @@
+#nav{
+    background-color:    rgba(38, 195, 201, 0.877);
+}
+
+.font1{
+    font-weight: bold;
+    text-align: center;
+    color: rgba(243, 145, 79, 0.76);
+    font-family:  'Times New Roman', Times, serif;
+    font-size: 140px;
+    height: 180px;
+    padding-top: 20px;
+   
+}
+
+.home {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+   
+
+
+.text1{
+    text-align: center;
+    color: rgba(71, 240, 99, 0.925);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+
+}
+
+.card-title{
+    font-weight: bold;
+    color: rgba(255, 0, 200, 0.877);
+    font-size: 30px;
+}
+
+.card-text{
+    color: rgba(38, 195, 201, 0.877);
+    font-size: 20px;
+}
+
+.prize{
+    color: rgb(193, 117, 228);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.card{
+    margin: 20px;
+}
+
+#card1{
+    min-height: 600px;
+}
+
+#card2 {
+    min-height: 570px;
+}
+
+#card3{
+    min-height: 600px;
+}
+
+
+#card5{
+    min-height: 570px;
+}
+
+#card6{
+    min-height: 570px;
+}
+
+.end{
+    text-align: center;
+    color: rgba(245, 100, 124, 0.911);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+
+}
+
+/*responsive*/
+@media(min-width:992px){
+
+}
+
+@media(min-width:768px) and (max-width:991px){
+
+}
+
+@media(min-width:575px) and (max-width:767px){
+
+}
+
+@media(min-width:480px) and (max-width:574px){
+    .font1{
+        font-size: 90px;
+        height: 260px;
+        padding-top: 40px;
+       }
+      
+      
+       .text1{
+        font-size: 25px;
+       }
+
+       .end{
+         font-size: 27px;
+         }
+
+         .card-title{
+            
+            font-size: 20px;
+        }
+        
+        .card-text{
+            
+            font-size: 15px;
+        }
+        
+        .prize{
+           
+            font-size: 15px;
+        }
+
+        #card1{
+            min-height: 400px;
+        }
+        
+        #card2 {
+            min-height: 400px;
+        }
+        
+        #card3{
+            min-height: 400px;
+        }
+        
+        
+        #card5{
+            min-height: 400px;
+        }
+        
+        #card6{
+            min-height: 400px;
+        }
+    
+    }
+    
+    
+
+
+
+@media(max-width:479px){
+    .font1{
+        font-size: 70px;
+        height: 250px;
+        padding-top: 32px;
+       }
+
+       .text1{
+        font-size: 20px;
+       }
+
+       .end{
+        font-size: 20px;
+    }
+
+    .card-title{
+            
+        font-size: 20px;
+    }
+    
+    .card-text{
+        
+        font-size: 15px;
+    }
+    
+    .prize{
+       
+        font-size: 15px;
+    }
+
+    #card1{
+        min-height: 400px;
+    }
+    
+    #card2 {
+        min-height: 400px;
+    }
+    
+    #card3{
+        min-height: 400px;
+    }
+    
+    
+    #card5{
+        min-height: 400px;
+    }
+    
+    #card6{
+        min-height: 400px;
+    }
+
+}
+
+
+

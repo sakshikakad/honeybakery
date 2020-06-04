@@ -1,0 +1,334 @@
+*{
+   
+    margin: 0px ;
+    padding: 0px;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+.bgimg{
+    background-image: url(cake16.jpg);
+    background-size: cover;
+    background-position: center;
+     width: 100%;
+    height: 789px;
+
+}
+.headerset{
+    padding-top: 100px;
+    box-sizing: border-box;
+    
+}
+
+.font {
+    font-size: 100px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: left;
+    color: rgba(185, 19, 207, 0.795);
+    margin: 50px 0px;
+    
+}
+
+.font1{
+    
+    font-weight: bold;
+    text-align: left;
+    color: greenyellow;
+    font-size: 70px;
+    font-style: oblique;
+}
+
+#abc{
+    font-size: 40px;
+    font-style: oblique;
+    font-weight: bold;
+    color: rgb(233, 18, 168);
+}
+
+.colorchange{
+    animation: colorchangehoney 1s infinite;
+}
+
+@keyframes colorchangehoney{
+    0%{color: purple}
+    25%{color: yellow;}
+    50%{color:green}
+    100%{color:rgb(229, 108, 240)}
+}
+
+/*menu*/
+
+.menu{
+    padding: 100px 0px 50px;
+    height: 900px;
+    width: 100%;
+    font-size:bold;
+}
+
+.image{
+    margin: 20px;
+   
+    
+}
+
+.gal{
+    height: 470px;
+    width: 100%;
+    font-weight: bold;
+}
+
+#button{
+    margin-left: 0px;
+}
+
+.about-section{
+    height: 90vh;
+    width: 98vw;
+    text-decoration: none;
+}
+
+.about-container{
+    
+    width: 85%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-box{
+    
+    width: 45%;
+    font-weight: bold;
+    text-align: justify;
+    line-height: 220%;
+    letter-spacing: 0.8px;
+    
+}
+
+.right-box{
+   
+    width: 40%;
+    margin-left:6% ;
+}
+
+.top-row{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.bottom-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.grid-img-one{
+    width: 50%;
+    height: 240px;
+   background-image: url(c10.jpg);
+   background-size: cover;
+   background-position: center;
+}
+
+.grid-img-two{
+    width: 50%;
+    height: 240px;
+   background-image: url(dc.jpg);
+   background-size: cover;
+   background-position: center;
+}
+
+.grid-img-three{
+    width: 50%;
+    height: 240px;
+   background-image: url(d11.jpg);
+   background-size: cover;
+   background-position: center;
+}
+
+.grid-img-four{
+    width: 50%;
+    height: 240px;
+   background-image: url(p10.jpg);
+   background-size: cover;
+   background-position: center;
+}
+
+.section-title{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.contact-section{
+    width: 100%;
+    height: 55vh;
+    background-color: rgb(66, 197, 214);
+    color: #FFFFDD;
+    text-align: center;
+}
+
+.contact-title{
+    margin: 25px;
+    font-family: 'poppins' ,sans-serif;
+    text-transform: uppercase;
+    font-size: 250%;
+}
+
+.email{
+    font-size: 150%;
+}
+
+.social-media-div{
+display: flex;
+flex-direction: row;
+justify-content: center;
+width: 40vw;
+margin: 0px auto;
+}
+
+.social-media-icon{
+    margin: 10px;
+}
+
+/*responsive*/
+@media(min-width:992px){
+
+}
+
+@media(min-width:768px) and (max-width:991px){
+
+}
+
+@media(min-width:575px) and (max-width:767px){
+
+}
+
+@media(min-width:480px) and (max-width:574px){
+    .bgimg{
+        background-image: url(cake2.jpg);
+        height: 750px;
+    
+    }
+
+    .font {
+        font-size: 60px;
+        margin: 40px 0px;
+        
+    }
+
+    .font1{
+    font-size: 50px;
+        
+    }
+
+    .menu{
+        height: 1480px;
+        }
+
+        .gal{
+            height: 1000px;
+            width: 100%;
+            font-weight: bold;
+        }
+
+        .about-section{
+            height: 80vh;
+            width: 98vw;
+            text-decoration: none;
+        }
+
+        .grid-img-one{
+            background-image: none;
+            }
+        
+        .grid-img-two{
+            background-image: none;
+           }
+        
+        .grid-img-three{
+            background-image: none;
+           }
+        
+        .grid-img-four{
+            background-image: none;
+          }
+    
+}
+
+@media(max-width:479px){
+    .bgimg{
+        background-image: url(cake2.jpg);
+        height: 593px;
+        width: 100%;
+    
+    }
+
+    .font {
+        font-size: 50px;
+        margin: 40px 0px;
+        
+    }
+
+    .font1{
+    font-size: 35px;
+        
+    }
+
+    .menu{
+        height: 1480px;
+        width: 90%;
+        margin-right: 60px;
+        }
+
+        .gal{
+            height: 1000px;
+            width: 90%;
+            font-weight: bold;
+        }
+
+        .about-section{
+            height: 80vh;
+            width: 90vw;
+            text-decoration: none;
+        }
+
+        .grid-img-one{
+            background-image: none;
+            }
+        
+        .grid-img-two{
+            background-image: none;
+           }
+        
+        .grid-img-three{
+            background-image: none;
+           }
+        
+        .grid-img-four{
+            background-image: none;
+          }
+
+          .contact-section{
+           height: 60vh;
+           width: 100%;
+            }
+
+            .contact-title{
+                font-size: 200%;
+            }
+
+            #con{
+                font-size: 20px;
+            }
+
+          
+    
+    }
+
+
+
+
+
+
