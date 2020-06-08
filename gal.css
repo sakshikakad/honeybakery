@@ -47,25 +47,68 @@
 }
 
 #card1{
-    min-height: 570px;
+    min-height: 400px;
 }
 
-#card2 {
-    min-height: 570px;
+#card2{
+    min-height: 470px;
 }
 
-#card3{
-    min-height: 570px;
+#card3 {
+    min-height: 470px;
+}
+
+#card4{
+    min-height: 470px;
 }
 
 
 #card5{
-    min-height: 570px;
+    min-height: 470px;
 }
 
 #card6{
-    min-height: 570px;
+    min-height: 470px;
 }
+
+#card7{
+    min-height: 450px;
+}
+
+#card8{
+    min-height: 450px;
+}
+
+#card9 {
+    min-height: 450px;
+}
+
+#card10{
+    min-height: 450px;
+}
+
+
+#card11{
+    min-height: 450px;
+}
+
+#card12{
+    min-height: 450px;
+}
+
+#card13{
+    min-height: 450px;
+}
+
+#card14{
+    min-height: 450px;
+}
+
+#card15 {
+    min-height: 450px;
+}
+
+
 
 .end{
     text-align: center;
@@ -148,9 +191,9 @@
 
 @media(max-width:479px){
     .font1{
-        font-size: 70px;
-        height: 120px;
-        padding-top: 40px;
+        font-size: 50px;
+        height: 100px;
+        padding-top: 45px;
        }
 
        .text1{
@@ -177,27 +220,86 @@
     }
 
     #card1{
-        min-height: 400px;
+        min-height: 350px;
+        min-width: 280px;
     }
     
     #card2 {
-        min-height: 400px;
+        min-height: 350px;
+        min-width: 280px;
     }
     
     #card3{
-        min-height: 400px;
+        min-height: 350px;
+        min-width: 280px;
+    }
+
+    #card4{
+        min-height: 350px;
+        min-width: 280px;
     }
     
     
     #card5{
-        min-height: 400px;
+        min-height: 350px;
+        min-width: 280px;
     }
     
     #card6{
-        min-height: 400px;
+        min-height: 350px;
+         min-width: 280px;
     }
 
+    #card7{
+        min-height: 350px;
+        min-width: 280px;
+    }
+    
+    #card8 {
+        min-height: 350px;
+        min-width: 280px;
+    }
+    
+    #card9{
+        min-height: 350px;
+        min-width: 280px;
+    }
+
+    #card10{
+        min-height: 350px;
+        min-width: 280px;
+    }
+    
+    
+    #card11{
+        min-height: 350px;
+        min-width: 280px;
+    }
+    
+    #card12{
+        min-height: 350px;
+         min-width: 280px;
+    }
+
+    #card13{
+        min-height: 350px;
+        min-width: 280px;
+    }
+    
+    #card14 {
+        min-height: 350px;
+        min-width: 280px;
+    }
+    
+    #card15{
+        min-height: 350px;
+        min-width: 280px;
+    }
+
+    
+
 }
+
 
 
 
