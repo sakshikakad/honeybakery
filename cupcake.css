@@ -49,17 +49,29 @@
     margin: 20px;
 }
 
+#card1{
+    min-height: 530px;
+}
+
 #card2 {
-    min-height: 570px;
+    min-height: 530px;
 }
 
 #card3{
-    min-height: 570px;
+    min-height: 300px;
+}
+
+#card4{
+    min-height: 500px;
 }
 
 
 #card5{
-    min-height: 570px;
+    min-height: 500px;
+}
+
+#card6{
+    min-height: 380px;
 }
 
 .end{
@@ -135,8 +147,8 @@
 
 @media(max-width:479px){
     .font1{
-        font-size: 70px;
-        height: 250px;
+        font-size: 50px;
+        height: 170px;
         padding-top: 40px;
        }
 
@@ -163,17 +175,35 @@
         font-size: 15px;
     }
 
+    #card1{
+        min-height: 350px;
+        min-width: 280px;
+    }
+    
     #card2 {
-        min-height: 400px;
+        min-height: 350px;
+        min-width: 280px;
     }
     
     #card3{
-        min-height: 400px;
+        min-height: 350px;
+        min-width: 280px;
+    }
+
+    #card4{
+        min-height: 350px;
+        min-width: 280px;
     }
     
     
     #card5{
-        min-height: 400px;
+        min-height: 350px;
+        min-width: 280px;
+    }
+    
+    #card6{
+        min-height: 350px;
+         min-width: 280px;
     }
 
 }
